@@ -1,11 +1,11 @@
-from data_cleaning import (
+from src.data_cleaning import (
     load_raw_data,
     clean_data,
     validate_data,
     save_cleaned_data
 )
 
-from analysis import (
+from src.analysis import (
     calculate_overall_kpis,
     analyze_sales_by_category,
     analyze_sales_by_region,
